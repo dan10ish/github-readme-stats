@@ -1,4 +1,5 @@
-import { flexLayout } from "../src/common/utils.js";
+import { describe, expect, it } from "@jest/globals";
+import { flexLayout } from "../src/common/render.js";
 
 describe("flexLayout", () => {
   it("should work with row & col layouts", () => {
